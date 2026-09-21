@@ -1,8 +1,8 @@
 {
-  "equipo": "G00",
+  "equipo": "G13",
   "integrantes": [
-    { "nombre": "Nombre Apellido", "codigo": "CODIGO UTEC" },
-    { "nombre": "Nombre Apellido", "codigo": "CODIGO UTEC" },
-    { "nombre": "Nombre Apellido", "codigo": "CODIGO UTEC" }
+    { "nombre": "Azul Arbulu", "codigo": "202510303" },
+    { "nombre": "Alba Cabrera", "codigo": "202510505" },
+    { "nombre": "Dylan Van Oordt", "codigo": "202510757" }
   ]
 }
