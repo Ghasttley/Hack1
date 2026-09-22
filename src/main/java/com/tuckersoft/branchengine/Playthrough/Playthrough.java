@@ -2,6 +2,7 @@ package com.tuckersoft.branchengine.Playthrough;
 
 import com.tuckersoft.branchengine.StoryNode.StoryNode;
 import com.tuckersoft.branchengine.User.User;
+import com.tuckersoft.branchengine.user.Account;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -25,7 +26,7 @@ public class Playthrough {
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "user_id", nullable = false)
-    private User user;
+    private Account user;
 
     @Column(nullable = false, updatable = false, length = 40)
     private String startNodeCode;
