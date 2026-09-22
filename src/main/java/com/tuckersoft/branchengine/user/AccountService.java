@@ -12,7 +12,7 @@ public class AccountService implements UserDetailsService {
     public AccountService(AccountRepository accountRepository) {
         this.accountRepository = accountRepository;
     }
-
+    
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         return accountRepository

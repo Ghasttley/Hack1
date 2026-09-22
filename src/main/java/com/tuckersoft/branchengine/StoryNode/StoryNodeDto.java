@@ -5,7 +5,8 @@ import lombok.Setter;
 import org.springframework.data.domain.Page;
 
 import java.util.List;
-
+@Getter
+@Setter
 public class StoryNodeDto {
     private Long id;
     private String nodeCode;
@@ -17,10 +18,10 @@ public class StoryNodeDto {
     private String glitchBranchCode;
 
     // Getters y setters
-        @Getter
-        @Setter
-    }
 
+    }
+@Getter
+@Setter
 public class PagedResponseDto<T> {
 
     private List<T> content;

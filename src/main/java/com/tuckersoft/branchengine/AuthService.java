@@ -51,7 +51,7 @@ public class AuthService implements AuthRepository, UserDetailsService {
 
 
     @Override
-    public User getUser(final UUID id) {
+    public Account getUser(final UUID id) {
         return userRepository.findById(id)
                 .orElseThrow(() -> {
                     logger.error("[USER] : User not found with id {}", id);
